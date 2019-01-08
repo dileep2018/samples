@@ -1,2 +1,2 @@
-FROM microsoft/iis:nanoserver
-COPY . /DotnetWorkspace/*.publish C:/inetpub/wwwroot
+FROM mcr.microsoft.com/windows/servercore/iis
+COPY . /SumitWorkspace/*.publish C:/inetpub/wwwroot
